@@ -33,3 +33,5 @@ WORKDIR /home/print
 
 # Default shell
 CMD ["/usr/sbin/cupsd", "-f"]
+
+EXPOSE 631
